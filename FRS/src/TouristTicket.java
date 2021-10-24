@@ -3,7 +3,8 @@ public class TouristTicket extends Ticket{
     private String[] touristLocations = new String[5];
     private int availableSpots = 0;
 
-    public TouristTicket(int PNR, String departureLocation, String destinationLocation, Flight travellingFlight, String dateTimeOfDeparture, String dateTimeOfArrival, Passenger bookedPassenger, int seatNo, float ticketPrice, float flightDuration, String hotelAddress, String[] touristLocations) {
+    public TouristTicket(int PNR, String departureLocation, String destinationLocation, Flight travellingFlight, String dateTimeOfDeparture, String dateTimeOfArrival, 
+                         Passenger bookedPassenger, int seatNo, float ticketPrice, float flightDuration, String hotelAddress, String[] touristLocations) {
         super(PNR, departureLocation, destinationLocation, travellingFlight, dateTimeOfDeparture, dateTimeOfArrival, bookedPassenger, seatNo, ticketPrice, flightDuration);
 
         this.hotelAddress = hotelAddress;
